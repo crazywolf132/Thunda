@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"declaration": false,
+		"emitDecoratorMetadata": true,
+		"skipLibCheck": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"typeRoots": [
+			"typings.d.ts",
+			"node_modules/@types",
+			"../../node_modules/@types"
+		],
+		"lib": [
+			"es6",
+			"es5",
+			"es7",
+			"dom",
+			"es2017"
+		],
+		"module": "commonjs",
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"moduleResolution": "node",
+		"target": "es2016",
+		"outDir": "dist"
+	},
+	"types": [
+		"node"
+	],
+	"exclude": [
+		"node_modules",
+		"dist",
+		"test"
+	]
+}
