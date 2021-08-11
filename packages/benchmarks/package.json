@@ -1,6 +1,6 @@
 {
 	"name": "@thunda/benchmarks",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"main": "index.js",
 	"engines": {
 		"node": ">=8.11.4"
@@ -19,7 +19,7 @@
 	},
 	"license": "MIT",
 	"dependencies": {
-		"@thunda/core": "^1.0.0",
+		"@thunda/core": "^1.1.0",
 		"autocannon": "^4.6.0",
 		"cli-table": "^0.3.1",
 		"express": "^4.17.1",
