@@ -2,5 +2,12 @@
 	"name": "thunda",
 	"version": "1.0.0",
 	"main": "index.js",
-	"license": "MIT"
+	"license": "MIT",
+	"scripts": {
+		"postinstall": "lerna bootstrap",
+		"release": "lerna publish --conventional-commits --message \"chore(npm): publish\""
+	},
+	"devDependencies": {
+		"lerna": "^4.0.0"
+	}
 }
