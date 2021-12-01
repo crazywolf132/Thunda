@@ -1,6 +1,7 @@
 {
 	"packages": [
-		"packages/*"
+		"packages/core",
+		"packages/lightning"
 	],
 	"version": "independent",
 	"npmClient": "yarn"

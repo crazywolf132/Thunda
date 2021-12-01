@@ -1,7 +1,7 @@
 import http from 'http';
 import parseurl from 'parseurl';
 import { parse } from 'querystring';
-import { lightning } from '@thunda/lightning';
+import { lightning } from '@thundaco/lightning';
 import Bridge from './bridge';
 import LightningOptions from './interfaces/lightningInterface';
 import ThundaOptions from './interfaces/thundaInterface';
