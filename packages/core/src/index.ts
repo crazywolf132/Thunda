@@ -29,7 +29,7 @@ class Thunda extends Bridge {
 	private notFound: Function;
 	private server: any;
 	private useLightning: boolean = true;
-	private lightningOptions: LightningOptions;
+	private lightningOptions: LightningOptions = { keepAlive: true, monitor: false};
 
 
 	constructor(options: ThundaOptions) {

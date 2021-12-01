@@ -1,5 +1,5 @@
 {
-	"name": "@thunda/benchmarks",
+	"name": "@thundaco/benchmarks",
 	"version": "1.1.1",
 	"main": "index.js",
 	"engines": {
@@ -37,5 +37,5 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"gitHead": "5adcff052a33ae016b3bc3073125117ed1d936eb"
+	"gitHead": "9cd14b98324b82237833f04fff06ad8c8861320b"
 }

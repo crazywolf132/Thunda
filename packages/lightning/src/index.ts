@@ -8,8 +8,8 @@ const cpus = os.cpus();
 
 class Lightning extends EventEmitter {
 
-	private keepAlive: boolean;
-	private monitor: boolean;
+	private keepAlive: boolean = true;
+	private monitor: boolean = false;
 	private work: any;
 
 	constructor(work, options: LightningOptions ) {
@@ -20,8 +20,8 @@ class Lightning extends EventEmitter {
 		}
 
 		({
-			keepAlive: this.keepAlive = true,
-			monitor: this.monitor = false
+			keepAlive: this.keepAlive,
+			monitor: this.monitor
 		} = options);
 
 		this.work = work.bind(this);
